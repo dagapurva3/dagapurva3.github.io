@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-console.log(isProd)
+// const isProd = process.env.NODE_ENV === 'production';
+// console.log(isProd)
 const nextConfig = {
     output: 'export',
-    basePath: isProd ? '/dagapurva3.github.io' : '',
-    assetPrefix: isProd ? '/dagapurva3.github.io/' : '',
+    reactStrictMode: true,
+    basePath: '/dagapurva3.github.io',
+    assetPrefix: '/dagapurva3.github.io/',
     images: {
         unoptimized: true,
     },
