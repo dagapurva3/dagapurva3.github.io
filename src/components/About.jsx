@@ -47,7 +47,7 @@ const About = () => {
         </motion.div>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold'
+          className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold sm:bg-transparent bg-black bg-opacity-50 p-4 rounded'
         >
           I am a passionate engineer with over 2 years of experience in scalable system design, machine learning, and full-stack development.
           I specialize in building innovative solutions that drive business success and create real-world impact.
