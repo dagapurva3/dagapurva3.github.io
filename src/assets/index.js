@@ -25,19 +25,21 @@ import express from "./tech/express.png";
 import java from "./tech/java.png";
 import jwt from "./tech/jwt.svg";
 import nextauth from "./tech/nextauth.png";
-import cpp from "./tech/cpp.png"
-import python from "./tech/python.png"
-import mysql from "./tech/mysql.png"
-import postgresql from "./tech/postgres.png"
-import flask from "./tech/flask.png"
-import fastapi from "./tech/fastapi.png"
-import kafka from "./tech/kafka.png"
-import aws from "./tech/aws.png"
-import tensorflow from "./tech/tensorflow.png"
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgres.png";
+import flask from "./tech/flask.png";
+import fastapi from "./tech/fastapi.png";
+import kafka from "./tech/kafka.png";
+import aws from "./tech/aws.png";
+import tensorflow from "./tech/tensorflow.png";
+import mlflow from "./tech/mlflow.png";
 
 import uwaterloo from "./company/uwaterloo.png";
 import mnit from "./company/mnit.png";
 import loadshare from "./company/LSN logo white.png";
+import blueprint from "./company/blueprint.png"
 
 import carrent from "./carrent.png";
 import inkSync from "./ink.png";
@@ -45,6 +47,7 @@ import tracker from "./tracker.png";
 import socialSphere from "./socialSphere.png";
 import code from "./code.png";
 import linkedin from "./linkedin.png"
+
 
 
 export {
@@ -92,4 +95,6 @@ export {
   kafka,
   aws,
   tensorflow,
+  mlflow,
+  blueprint,
 };

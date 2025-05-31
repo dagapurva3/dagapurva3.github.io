@@ -76,11 +76,11 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="https://drive.google.com/uc?export=download&id=1DDcb6I7ZvCTVG59x9nRig4m5CppwHJkO"
+              href="https://drive.google.com/uc?export=download&id=1iprhD1TKyjNm3GOaHp6XWHMn6g4viWl7"
               download="Purva_Daga_Resume.pdf"
               className="text-secondary hover:text-white text-[18px] font-bold cursor-pointer"
             >
-             Resume
+            Download Resume
             </a>
           </li>
         </ul>
@@ -115,11 +115,11 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1DDcb6I7ZvCTVG59x9nRig4m5CppwHJkO"
+                  href="https://drive.google.com/uc?export=download&id=1iprhD1TKyjNm3GOaHp6XWHMn6g4viWl7"
                   download="Purva_Daga_Resume.pdf"
                   className="text-secondary hover:text-white text-[16px] font-bold cursor-pointer"
                 >
-                 Resume
+                Download Resume
                 </a>
               </li>
             </ul>

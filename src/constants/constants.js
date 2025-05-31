@@ -27,7 +27,9 @@ import {
   loadshare,
   uwaterloo,
   mnit,
+  blueprint,
   code,
+  mlflow,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +57,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Deep Learning Research",
+    title: "AI/ML Engineer",
     icon: creator
   },
   {
@@ -137,12 +139,46 @@ const technologies = [
     icon: tensorflow
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "MLFlow",
+    icon: mlflow,
   },
 ];
 
 const projects = [
+  {
+    name: "NasFlow",
+    description:
+      "  Developed an automated NAS pipeline for image classification using CNNs and Transformers (e.g., ResNet, DeiT) across diverse datasets, achieving up to 91% validation accuracy with Optuna-based tuning, MLflow/TensorBoard tracking, and GPU-accelerated training.",
+    features: [],
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MLFLOW",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "optuna",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hugging-Face",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: code,
+    source_code_link: "https://github.com/dagapurva3/NasFlow",
+  },
   {
     name: "ClGanNet",
     description:
@@ -214,14 +250,39 @@ const projects = [
 
 const experiences = [
   {
+    title: "Teaching Assistant",
+    company_name: "University of Waterloo",
+    icon: uwaterloo,
+    iconBg: "#E6DEDD",
+    date: "May 2025 – Present",
+    points: [
+      "ECE 108"
+    ],
+  },
+  {
+    title: "Volunteer Project Developer",
+    company_name: "UW Blueprint",
+    icon: blueprint,
+    iconBg: "#E6DEDD",
+    date: "January 2025 – Present",
+    points: [
+      "Designing and developing a class management platform for Sistema Toronto, enabling 50+ teachers to track absences,upload lesson plans, and claim substitute classes.",
+"Enhancing teacher workflows with Next.js UI components and backend logic while automating class reminders via Google APIs and cron jobs, reducing missed updates by 40%."
+    ],
+  },
+  {
     title: "Masters in Computer Engineering",
     company_name: "University of Waterloo",
     icon: uwaterloo,
     iconBg: "#E6DEDD",
     date: "September 2024 – August 2025",
     points: [
+      "Tools and Methods of Intelligent systems",
+      "Image Processing and Visual Communications",
+      "Data and Knowledge Modelling",
       " Algorithms Design and Analysis",
       "Statistical signal processing",
+      "Accounting and Financial Management",
       "Management and Leadership",
     ],
   },
