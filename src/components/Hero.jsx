@@ -61,7 +61,7 @@ const Hero = () => {
           <h1 className={`font-black lg:text-[90px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-20 text-white`}>
             Hi, I'm <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[80px] lg:text-[110px] whitespace-nowrap leading-none"
               style={{ fontFamily: '"Ibarra Real Nova", serif', lineHeight: '1.2' }}>
-              Purva 
+              Purva Daga
             </p>
           </h1>
           <p className={`heroSubText mt-2 text-xl sm:text-2xl font-semibold tracking-wide text-lime-100`}>
