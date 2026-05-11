@@ -65,7 +65,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}
+          <h3 className='text-white font-bold text-[24px] min-h-[60px] line-clamp-2'>{name}
           {research_paper_link && (
             <a
               href={research_paper_link}

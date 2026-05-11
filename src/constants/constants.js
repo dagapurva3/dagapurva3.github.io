@@ -336,7 +336,7 @@ const experiences = [
     company_name: "University of Waterloo",
     icon: uwaterloo,
     iconBg: "#E6DEDD",
-    date: "May 2025 – Present",
+    date: "May 2025 – August 2025",
     points: [
       "ECE 108"
     ],
@@ -346,7 +346,7 @@ const experiences = [
     company_name: "UW Blueprint",
     icon: blueprint,
     iconBg: "#E6DEDD",
-    date: "January 2025 – Present",
+    date: "January 2025 – April 2025",
     points: [
       "Designing and developing a class management platform for Sistema Toronto, enabling 50+ teachers to track absences,upload lesson plans, and claim substitute classes.",
 "Enhancing teacher workflows with Next.js UI components and backend logic while automating class reminders via Google APIs and cron jobs, reducing missed updates by 40%."
