@@ -39,7 +39,8 @@ import mlflow from "./tech/mlflow.png";
 import uwaterloo from "./company/uwaterloo.png";
 import mnit from "./company/mnit.png";
 import loadshare from "./company/LSN logo white.png";
-import blueprint from "./company/blueprint.png"
+import blueprint from "./company/blueprint.png";
+import mychoice from "./company/mychoice.png";
 
 import carrent from "./carrent.png";
 import inkSync from "./ink.png";
@@ -86,6 +87,7 @@ export {
   uwaterloo,
   mnit,
   loadshare,
+  mychoice,
   cpp,
   python,
   mysql,

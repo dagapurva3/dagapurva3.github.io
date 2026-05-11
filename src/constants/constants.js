@@ -28,6 +28,7 @@ import {
   uwaterloo,
   mnit,
   blueprint,
+  mychoice,
   code,
   mlflow,
 } from "../assets";
@@ -150,9 +151,36 @@ const technologies = [
 
 const projects = [
   {
-    name: "NasFlow",
+    name: "AdmitIQ / KitesWay",
     description:
-      "  Developed an automated NAS pipeline for image classification using CNNs and Transformers (e.g., ResNet, DeiT) across diverse datasets, achieving up to 91% validation accuracy with Optuna-based tuning, MLflow/TensorBoard tracking, and GPU-accelerated training.",
+      "Production AI college-admissions platform at kitesway.com built with React 19, Django, and Google Gemini, delivering intelligent application guidance and automated document analysis for prospective students.",
+    features: [],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gemini",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: code,
+    live_link: "https://www.kitesway.com/",
+    source_code_link: "https://github.com/dagapurva3",
+  },
+  {
+    name: "regnex",
+    description:
+      "Multi-agent financial sentiment and RAG system built with Agno, Gemini, LanceDB, and Financial PhraseBank, enabling real-time market intelligence and contextual investment insights.",
     features: [],
     tags: [
       {
@@ -160,20 +188,103 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "MLFLOW",
+        name: "gemini",
         color: "green-text-gradient",
       },
       {
+        name: "rag",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "lancedb",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: code,
+    source_code_link: "https://github.com/nid-27/regnex",
+  },
+  {
+    name: "HidLang",
+    description:
+      "AI-powered presentation analysis platform that delivers instant feedback on body language, speech quality, and professional presence through detailed PDF reports. Detects 17 body language cues with full speech transcription and real-time actionable insights.",
+    features: [],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gemini",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: code,
+    live_link: "https://hidlang.com/",
+    source_code_link: "https://github.com/dagapurva3",
+  },
+  {
+    name: "ChainMind",
+    description:
+      "Built production-grade ML serving infrastructure with Weaviate vector database, enabling semantic search across 250+ electronics categories with 95%+ query accuracy. Architected complete RAG pipeline integrating local LLM (Llama3.2) with Express.js APIs and automated data migration, improving search relevance by 40%.",
+    features: [],
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "weaviate",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "llama3.2",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: code,
+    source_code_link: "https://github.com/dagapurva3/ChainMind",
+  },
+  {
+    name: "NasFlow",
+    description:
+      "Developed an automated Neural Architecture Search pipeline for image classification using custom CNNs and Transformer models, optimized across ImageNet subsets and a 120-class custom pet dataset with ONNX export and deployment. Integrated Optuna for hyperparameter tuning and MLflow/TensorBoard for live benchmarking, achieving 91% validation accuracy and reducing experimentation time by 30% with GPU-accelerated training.",
+    features: [],
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
         name: "pytorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hugging-face",
         color: "pink-text-gradient",
       },
       {
         name: "optuna",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
-        name: "Hugging-Face",
-        color: "orange-text-gradient",
+        name: "mlflow",
+        color: "green-text-gradient",
       },
     ],
     image: code,
@@ -182,7 +293,7 @@ const projects = [
   {
     name: "ClGanNet",
     description:
-      "  Developed a novel GAN variant to augment maize leaves, implementing a custom loss function for precise calculations, improving training dataset quality and reducing network size by 40%. Engineered a CNN for maize leaf disease detection, achieving a testing accuracy of 99.04%.",
+      "Devised a novel GAN variant to augment maize leaves, implementing a custom loss function for precise calculations, improving training dataset quality and reducing network size by 40%. Designed production-ready CNN achieving 99.04% testing accuracy for disease detection and published research in Signal Processing: Image Communication journal.",
     features: [],
     tags: [
       {
@@ -190,65 +301,36 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "GAN",
+        name: "gan",
         color: "green-text-gradient",
       },
       {
         name: "pytorch",
         color: "pink-text-gradient",
       },
+      {
+        name: "tensorflow",
+        color: "orange-text-gradient",
+      },
     ],
     image: code,
     source_code_link: "https://github.com/dagapurva3/ClGanNet",
     research_paper_link: "https://www.sciencedirect.com/science/article/abs/pii/S092359652300156X?dgcid=coauthorr",
   },
-  {
-    name: "Plant-Disease-Detection",
-    description:
-      "Developed a hybrid model for early plant disease identification, combining an Autoencoder and Convolutional Neural Network. Achieved the primary goal of reducing model parameters while maintaining accuracy above 97%.",
-    features: [],
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "autoencoder",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tensorflow",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: code,
-    source_code_link: "https://github.com/dagapurva3/Plant-disease-detection",
-  },
-  {
-    name: "SportsCelebWebApp",
-    description:
-      "Developed a Flask web application that leverages machine learning and image processing to detect sports celebrities in user-provided images. Trained a Random Forest ML model on a diverse dataset, enabling accurate identification of celebrities with confidence scores and names in new uploads.",
-    features: [],
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "flask",
-        color: "green-text-gradient",
-      },
-      {
-        name: "opencv",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: code,
-    source_code_link: "https://github.com/dagapurva3/SportCelebWebApp",
-  },
 ];
 
 const experiences = [
+  {
+    title: "Full Stack Developer",
+    company_name: "MyChoice Financials (InsurTech Startup)",
+    icon: mychoice,
+    iconBg: "#E6DEDD",
+    date: "September 2025 – Present",
+    points: [
+      "Architected Policy-Pilot, an AI-driven document validation service using Django, Celery, and Redis that parses complex insurance PDFs into structured data, reducing manual processing latency by 60%.",
+      "Implemented Google Gemini \"Computer Use\" capabilities for automated broker form filling, utilizing vision-language models to navigate third-party portals and synchronize extracted policy data with 95% accuracy.",
+    ],
+  },
   {
     title: "Teaching Assistant",
     company_name: "University of Waterloo",
@@ -293,16 +375,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2022 – August 2024",
     points: [
-      " Led migration of legacy codebase to a hexagonal OMS architecture, constituting 65+ APIs reducing build times, API response times, and database size by 35%.",
-      "Built and scaled geocoding APIs, improving address validation accuracy through confidence scoring mechanisms.",
-      "Developed efficient systems and products for cross-utilization of different internal products, increasing orders by 20%.",
-      "Designed and implemented a low-cost data engineering infrastructure, building an end-to-end data pipeline and lakehouse system that improved data analysis efficiency.",
-      "Awarded the Bar Raiser award for demonstrating exceptional dedication and perseverance, exceeding project goals and completing the project under tight deadlines.",
+      "Partnered with data teams to design and deploy cloud-based ML pipelines for time series anomaly detection, improving real-time fraud detection performance by 40%.",
+      "Developed and deployed production-ready ML model serving APIs with built-in confidence scoring and automated CI/CD workflows, enhancing validation accuracy by 20%.",
+      "Led migration to a microservices architecture, refactoring 65+ APIs using Java and Docker, resulting in a 35% reduction in system latency and overhead.",
+      "Built scalable, cloud-native ML solutions for distributed order management, integrating automated training pipelines that boosted production throughput by 30%.",
+      "Recognized with the Bar Raiser Award for delivering enterprise-grade ML infrastructure that exceeded KPIs by 15%, under tight deadlines and in close collaboration with cross-functional teams.",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: " Loadshare Networks",
+    company_name: "Loadshare Networks",
     icon: loadshare,
     iconBg: "#E6DEDD",
     date: "January 2022 – May 2022",
@@ -312,14 +394,14 @@ const experiences = [
     ],
   },
   {
-    title: "BTech in Computer Science",
+    title: "BTech, Computer Science and Engineering",
     company_name: "MNIT, Jaipur",
     icon: mnit,
     iconBg: "#E6DEDD",
     date: "August 2018 – May 2022",
     points: [
-      // "Computer Science"
-    ]
+      "Computer Science and Engineering (CGPA: 8.48/10)",
+    ],
   },
 ];
 
