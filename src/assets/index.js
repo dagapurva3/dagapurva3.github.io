@@ -35,6 +35,8 @@ import kafka from "./tech/kafka.png";
 import aws from "./tech/aws.png";
 import tensorflow from "./tech/tensorflow.png";
 import mlflow from "./tech/mlflow.png";
+import django from "./tech/django.svg";
+import mcp from "./tech/mcp.svg";
 
 import uwaterloo from "./company/uwaterloo.png";
 import mnit from "./company/mnit.png";
@@ -98,5 +100,7 @@ export {
   aws,
   tensorflow,
   mlflow,
+  django,
+  mcp,
   blueprint,
 };

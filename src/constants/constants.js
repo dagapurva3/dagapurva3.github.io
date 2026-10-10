@@ -31,6 +31,8 @@ import {
   mychoice,
   code,
   mlflow,
+  django,
+  mcp,
 } from "../assets";
 
 export const navLinks = [
@@ -116,6 +118,10 @@ const technologies = [
     icon: flask
   },
   {
+    name: "Django",
+    icon: django
+  },
+  {
     name: "FastAPI",
     icon: fastapi
   },
@@ -146,6 +152,10 @@ const technologies = [
   {
     name: "MLFlow",
     icon: mlflow,
+  },
+  {
+    name: "MCP",
+    icon: mcp,
   },
 ];
 
@@ -346,7 +356,7 @@ const experiences = [
     company_name: "UW Blueprint",
     icon: blueprint,
     iconBg: "#E6DEDD",
-    date: "January 2025 – April 2025",
+    date: "January 2025 – September 2026",
     points: [
       "Designing and developing a class management platform for Sistema Toronto, enabling 50+ teachers to track absences,upload lesson plans, and claim substitute classes.",
 "Enhancing teacher workflows with Next.js UI components and backend logic while automating class reminders via Google APIs and cron jobs, reducing missed updates by 40%."
@@ -359,6 +369,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2024 – August 2025",
     points: [
+      "AI/ML Specialisation",
       "Tools and Methods of Intelligent systems",
       "Image Processing and Visual Communications",
       "Data and Knowledge Modelling",
@@ -440,6 +451,10 @@ const heroTexts = [
   "Backend Development",
   500,
   "Data Engineering",
+  500,
+  "LLM Applications",
+  500,
+  "Django",
   500,
   "Problem Solving",
   500,

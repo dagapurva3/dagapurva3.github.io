@@ -49,10 +49,10 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold sm:bg-transparent bg-black bg-opacity-50 p-4 rounded'
         >
-          I am a passionate engineer with over 3 years of experience in AI/ML, scalable system design, and full-stack development.
+          I am a passionate engineer with over 3.5 years of experience in AI/ML, scalable system design, and full-stack development.
           I specialize in building production-grade AI solutions, from LLM-powered applications and RAG pipelines to cloud-native ML infrastructure that drive business success and create real-world impact.
           My expertise spans machine learning, data engineering, computer vision, and developing user-friendly applications.
-          With a Master's specialisation in AI/ML from the University of Waterloo and a strong foundation in Python, Java, and modern frameworks, I am eager to contribute to projects that push the boundaries of technology and foster continuous growth.
+          With a Master's specialisation in AI/ML from the University of Waterloo and a strong foundation in Python, Java, and modern frameworks, I build technology that pushes boundaries and creates real-world impact.
         </motion.p>
         <Image src={color_sharp} alt="color-sharp" className="absolute z-[-1] h-80 -left-60 w-screen -top-20" />
         <Image src={astronaut} alt="astronaut" className="absolute z-[-1] h-80 -right-20 animation top-28" />
