@@ -11,6 +11,11 @@ export const metadata = {
   description: "Purva Daga is an AI & Software Engineer and Full-Stack Developer @ MyChoice, MEng AI/ML @ University of Waterloo.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

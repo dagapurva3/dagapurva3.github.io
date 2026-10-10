@@ -1,8 +1,7 @@
 import { About, Contact, Hero, Navbar, Tech, Works, Experience } from "@/components";
-import dynamic from "next/dynamic";
+import StarsBackground from "@/components/StarsBackground";
 
 export default function Home() {
-  const StarsCanvas = dynamic(() => import("@/components/canvas/Stars"));
   return (
     <div className="  ">
       <Navbar />
@@ -17,7 +16,7 @@ export default function Home() {
           <Works />
           <Contact />
         </div>
-        <StarsCanvas />
+        <StarsBackground />
       </div>
     </div>
   );

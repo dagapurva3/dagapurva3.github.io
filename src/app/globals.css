@@ -13,6 +13,11 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 
 .hash-span {
   margin-top: -100px;
@@ -213,6 +218,7 @@
   background-blend-mode: lighten;
   background-color: #050816;
   height: 100vh;
+  height: 100dvh;
 }
 
 

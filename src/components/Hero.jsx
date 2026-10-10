@@ -50,7 +50,7 @@ const Hero = () => {
   return (
     <section className={`relative z-[-1] w-full h-screen mx-auto banner overflow-hidden`}>
       <div
-        className={`absolute inset-0 top-[150px] right-40 z-[-1] animation  max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[110px] sm:top-[150px] sm:right-40 z-[-1] animation  max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
