@@ -72,6 +72,9 @@ const Hero = () => {
               repeat={Infinity}
             />
           </p>
+          <p className={`mt-2 text-lg sm:text-xl font-semibold text-cyan-200 tracking-wide`}>
+            AI & Software Engineer · Full-Stack @ MyChoice · MEng AI/ML @ uWaterloo
+          </p>
           <p className={`mt-2 text-xl sm:text-2xl font-bold text-purple-400 bg-black bg-opacity-70 p-2 rounded`} style={{ fontFamily: '"Ibarra Real Nova", serif' }}>
             A developer passionate about designing scalable systems,
             conquering challenges, and staying fit both in code and life! 💻🏋️‍♂️ <br className='sm:block hidden' />
